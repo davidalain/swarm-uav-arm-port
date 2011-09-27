@@ -1,0 +1,2 @@
+Dependencies for Project 'ARM_Port_from_AeroQuad', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x4DA59CF0)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I "D:\ProgramasInstalados\Keil\ARM\CMSIS\Include" -I "D:\ProgramasInstalados\Keil\ARM\INC\NXP\LPC17xx" --list "startup_LPC17xx.lst" --xref -o "startup_LPC17xx.o" --depend "startup_LPC17xx.d")
