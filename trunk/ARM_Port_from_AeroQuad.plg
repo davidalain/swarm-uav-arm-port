@@ -115,3 +115,221 @@ SerialCom.c(68): warning:  #223-D: function "readFloatSerial" declared implicitl
 SerialCom.c(71): error:  #20: identifier "YAW" is undefined
 SerialCom.c(72): error:  #20: identifier "HEADING" is undefined
 Target not created
+Build target 'Target 1'
+compiling AeroQuad.c...
+AeroQuad.c(114): error:  #5: cannot open source input file "EEPROM.h": No such file or directory
+compiling FlightCommand.c...
+FlightCommand.c(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.c(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.c(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.c(28): warning:  #223-D: function "zeroIntegralError" declared implicitly
+FlightCommand.c(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.c(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.c(32): error:  #20: identifier "armed" is undefined
+FlightCommand.c(32): error:  #20: identifier "ON" is undefined
+FlightCommand.c(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.c(34): error:  #20: identifier "motors" is undefined
+FlightCommand.c(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.c(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.c(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.c(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.c(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.c(42): error:  #20: identifier "accel" is undefined
+FlightCommand.c(48): error:  #20: identifier "motors" is undefined
+FlightCommand.c(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.c(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.c(64): error:  #20: identifier "byte" is undefined
+FlightCommand.c(64): error:  #65: expected a ";"
+FlightCommand.c(64): error:  #20: identifier "motor" is undefined
+FlightCommand.c(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.c(65): error:  #20: identifier "motors" is undefined
+FlightCommand.c(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.c(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.c(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.c(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.c(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.c(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.c(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.c...
+FlightControl.c(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.c(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.c(30): error:  #20: identifier "motors" is undefined
+FlightControl.c(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.c(30): warning:  #223-D: function "updatePID" declared implicitly
+FlightControl.c(30): error:  #20: identifier "receiver" is undefined
+FlightControl.c(30): error:  #20: identifier "gyro" is undefined
+FlightControl.c(30): error:  #20: identifier "PID" is undefined
+FlightControl.c(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.c(35): warning:  #223-D: function "updatePID" declared implicitly
+FlightControl.c(35): error:  #20: identifier "receiver" is undefined
+FlightControl.c(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.c(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.c(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.c(35): error:  #20: identifier "PID" is undefined
+FlightControl.c(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.c(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.c(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.c(37): error:  #20: identifier "motors" is undefined
+FlightControl.c(37): error:  #20: identifier "gyro" is undefined
+FlightControl.c(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.c(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.c(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.c(49): error:  #20: identifier "byte" is undefined
+FlightControl.c(49): error:  #65: expected a ";"
+FlightControl.c(49): error:  #20: identifier "motor" is undefined
+FlightControl.c(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.c(50): error:  #20: identifier "motors" is undefined
+FlightControl.c(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.c(53): error:  #65: expected a ";"
+FlightControl.c(54): warning:  #223-D: function "constrain" declared implicitly
+FlightControl.c(54): error:  #20: identifier "testCommand" is undefined
+FlightControl.c(57): error:  #65: expected a ";"
+compiling SerialCom.c...
+SerialCom.c(32): error:  #20: identifier "bool" is undefined
+SerialCom.c(32): error:  #20: identifier "byte" is undefined
+SerialCom.c(34): warning:  #223-D: function "readFloatSerial" declared implicitly
+SerialCom.c(35): error:  #20: identifier "armed" is undefined
+SerialCom.c(35): error:  #20: identifier "OFF" is undefined
+SerialCom.c(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.c(37): error:  #20: identifier "true" is undefined
+SerialCom.c(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.c(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.c(41): error:  #20: identifier "false" is undefined
+SerialCom.c(46): error:  #20: identifier "PID" is undefined
+SerialCom.c(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(47): warning:  #223-D: function "readFloatSerial" declared implicitly
+SerialCom.c(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.c(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.c(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.c(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(56): error:  #20: identifier "true" is undefined
+SerialCom.c(61): warning:  #223-D: function "SERIAL_AVAILABLE" declared implicitly
+SerialCom.c(62): warning:  #223-D: function "digitalWrite" declared implicitly
+SerialCom.c(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.c(62): error:  #20: identifier "LOW" is undefined
+SerialCom.c(63): error:  #20: identifier "queryType" is undefined
+SerialCom.c(63): warning:  #223-D: function "SERIAL_READ" declared implicitly
+SerialCom.c(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.c(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.c(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.c(68): warning:  #223-D: function "readFloatSerial" declared implicitly
+SerialCom.c(71): error:  #20: identifier "YAW" is undefined
+SerialCom.c(72): error:  #20: identifier "HEADING" is undefined
+Target not created
+Build target 'Target 1'
+compiling AeroQuad.c...
+.\libraries\EEPROM\EEPROM.h(25): error:  #20: identifier "class" is undefined
+.\libraries\EEPROM\EEPROM.h(26): error:  #65: expected a ";"
+.\libraries\EEPROM\EEPROM.h(30): warning:  #12-D: parsing restarts here after previous syntax error
+.\libraries\EEPROM\EEPROM.h(32): error:  #757: variable "EEPROMClass" is not a type name
+AeroQuad.c(115): error:  #5: cannot open source input file "Wire.h": No such file or directory
+compiling FlightCommand.c...
+FlightCommand.c(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.c(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.c(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.c(28): warning:  #223-D: function "zeroIntegralError" declared implicitly
+FlightCommand.c(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.c(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.c(32): error:  #20: identifier "armed" is undefined
+FlightCommand.c(32): error:  #20: identifier "ON" is undefined
+FlightCommand.c(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.c(34): error:  #20: identifier "motors" is undefined
+FlightCommand.c(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.c(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.c(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.c(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.c(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.c(42): error:  #20: identifier "accel" is undefined
+FlightCommand.c(48): error:  #20: identifier "motors" is undefined
+FlightCommand.c(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.c(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.c(64): error:  #20: identifier "byte" is undefined
+FlightCommand.c(64): error:  #65: expected a ";"
+FlightCommand.c(64): error:  #20: identifier "motor" is undefined
+FlightCommand.c(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.c(65): error:  #20: identifier "motors" is undefined
+FlightCommand.c(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.c(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.c(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.c(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.c(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.c(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.c(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.c...
+FlightControl.c(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.c(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.c(30): error:  #20: identifier "motors" is undefined
+FlightControl.c(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.c(30): warning:  #223-D: function "updatePID" declared implicitly
+FlightControl.c(30): error:  #20: identifier "receiver" is undefined
+FlightControl.c(30): error:  #20: identifier "gyro" is undefined
+FlightControl.c(30): error:  #20: identifier "PID" is undefined
+FlightControl.c(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.c(35): warning:  #223-D: function "updatePID" declared implicitly
+FlightControl.c(35): error:  #20: identifier "receiver" is undefined
+FlightControl.c(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.c(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.c(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.c(35): error:  #20: identifier "PID" is undefined
+FlightControl.c(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.c(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.c(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.c(37): error:  #20: identifier "motors" is undefined
+FlightControl.c(37): error:  #20: identifier "gyro" is undefined
+FlightControl.c(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.c(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.c(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.c(49): error:  #20: identifier "byte" is undefined
+FlightControl.c(49): error:  #65: expected a ";"
+FlightControl.c(49): error:  #20: identifier "motor" is undefined
+FlightControl.c(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.c(50): error:  #20: identifier "motors" is undefined
+FlightControl.c(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.c(53): error:  #65: expected a ";"
+FlightControl.c(54): warning:  #223-D: function "constrain" declared implicitly
+FlightControl.c(54): error:  #20: identifier "testCommand" is undefined
+FlightControl.c(57): error:  #65: expected a ";"
+compiling SerialCom.c...
+SerialCom.c(32): error:  #20: identifier "bool" is undefined
+SerialCom.c(32): error:  #20: identifier "byte" is undefined
+SerialCom.c(34): warning:  #223-D: function "readFloatSerial" declared implicitly
+SerialCom.c(35): error:  #20: identifier "armed" is undefined
+SerialCom.c(35): error:  #20: identifier "OFF" is undefined
+SerialCom.c(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.c(37): error:  #20: identifier "true" is undefined
+SerialCom.c(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.c(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.c(41): error:  #20: identifier "false" is undefined
+SerialCom.c(46): error:  #20: identifier "PID" is undefined
+SerialCom.c(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(47): warning:  #223-D: function "readFloatSerial" declared implicitly
+SerialCom.c(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.c(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.c(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.c(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.c(56): error:  #20: identifier "true" is undefined
+SerialCom.c(61): warning:  #223-D: function "SERIAL_AVAILABLE" declared implicitly
+SerialCom.c(62): warning:  #223-D: function "digitalWrite" declared implicitly
+SerialCom.c(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.c(62): error:  #20: identifier "LOW" is undefined
+SerialCom.c(63): error:  #20: identifier "queryType" is undefined
+SerialCom.c(63): warning:  #223-D: function "SERIAL_READ" declared implicitly
+SerialCom.c(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.c(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.c(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.c(68): warning:  #223-D: function "readFloatSerial" declared implicitly
+SerialCom.c(71): error:  #20: identifier "YAW" is undefined
+SerialCom.c(72): error:  #20: identifier "HEADING" is undefined
+Target not created
