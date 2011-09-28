@@ -29,7 +29,7 @@
 //***************************************************************************************************
 //********************************** Serial Commands ************************************************
 //***************************************************************************************************
-bool validateCalibrateCommand(byte command)
+bool validateCalibrateCommand(int command)
 {
   if (readFloatSerial() == 123.45) {// use a specific float value to validate full throttle call is being sent
     armed = OFF;

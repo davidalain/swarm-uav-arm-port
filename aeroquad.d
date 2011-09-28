@@ -1,4 +1,14 @@
-aeroquad.o: AeroQuad.c
+aeroquad.o: AeroQuad.cpp
 aeroquad.o: .\libraries\EEPROM\EEPROM.h
 aeroquad.o: D:\ProgramasInstalados\Keil\ARM\RV31\INC\inttypes.h
 aeroquad.o: D:\ProgramasInstalados\Keil\ARM\RV31\INC\stdint.h
+aeroquad.o: .\libraries\Wire\Wire.h
+aeroquad.o: AeroQuad.h
+aeroquad.o: D:\ProgramasInstalados\Keil\ARM\RV31\INC\stdlib.h
+aeroquad.o: D:\ProgramasInstalados\Keil\ARM\RV31\INC\math.h
+aeroquad.o: I2C.h
+aeroquad.o: PID.h
+aeroquad.o: AQMath.h
+aeroquad.o: Receiver.h
+aeroquad.o: DataAcquisition.h
+aeroquad.o: Accel.h

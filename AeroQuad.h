@@ -20,8 +20,8 @@
 
 #include <stdlib.h>
 #include <math.h>
-#include "WProgram.h"
-#include "pins_arduino.h"
+//#include "WProgram.h"
+//#include "pins_arduino.h"
 
 // Flight Software Version
 #define VERSION 2.5
@@ -145,7 +145,7 @@ float aref; // Read in from EEPROM
 // Flight Mode
 #define ACRO 0
 #define STABLE 1
-byte flightMode;
+int flightMode;
 unsigned long frameCounter = 0; // main loop executive frame counter
 int minAcro; // Read in from EEPROM, defines min throttle during flips
 #define PWM2RAD 0.002 //  Based upon 5RAD for full stick movement, you take this times the RAD to get the PWM conversion factor
@@ -165,7 +165,7 @@ int minAcro; // Read in from EEPROM, defines min throttle during flips
 #endif
 
 // Heading hold
-byte headingHoldConfig;
+int headingHoldConfig;
 //float headingScaleFactor;
 float commandedYaw = 0;
 float headingHold = 0; // calculated adjustment for quad to go to heading (PID output)
@@ -176,7 +176,7 @@ float absoluteHeading = 0;;
 #endif
 float setHeading = 0;
 unsigned long headingTime = micros();
-byte headingHoldState = OFF;
+int headingHoldState = OFF;
 
 // batteryMonitor & Altutude Hold
 int throttle = 1000;
@@ -196,8 +196,8 @@ int maxThrottleAdjust = 50;
 float holdAltitude = 0.0;
 int holdThrottle = 1000;
 float zDampening = 0.0;
-byte storeAltitude = OFF;
-byte altitudeHold = OFF;
+int storeAltitude = OFF;
+int altitudeHold = OFF;
 
 // Receiver variables
 #define TIMEOUT 25000
@@ -222,15 +222,15 @@ int delta;
 float timeConstant;
 
 // ESC Calibration
-byte calibrateESC = 0;
+int calibrateESC = 0;
 int testCommand = 1000;
 
 // Communication
 char queryType = 'X';
-byte tlmType = 0;
-byte armed = OFF;
-byte safetyCheck = OFF;
-byte update = 0;
+int tlmType = 0;
+int armed = OFF;
+int safetyCheck = OFF;
+int update = 0;
 HardwareSerial *binaryPort;
 
 /**************************************************************/
@@ -302,15 +302,15 @@ unsigned long fastTelemetryTime = 0;
 /**************************************************************/
 // Enable/disable control loops for debug
 //#define DEBUG
-byte receiverLoop = ON;
-byte telemetryLoop = ON;
-byte sensorLoop = ON;
-byte controlLoop = ON;
+int receiverLoop = ON;
+int telemetryLoop = ON;
+int sensorLoop = ON;
+int controlLoop = ON;
 #ifdef CameraControl
-byte cameraLoop = ON; // Note: stabilization camera software is still under development, moved to Arduino Mega
+int cameraLoop = ON; // Note: stabilization camera software is still under development, moved to Arduino Mega
 #endif
-byte fastTransfer = OFF; // Used for troubleshooting
-byte testSignal = LOW;
+int fastTransfer = OFF; // Used for troubleshooting
+int testSignal = LOW;
 
 // **************************************************************
 // *************************** EEPROM ***************************
@@ -411,7 +411,7 @@ float findMode(float *data, int arraySize); // defined in Sensors.pde
 int findMode(int *data, int arraySize); // defined in Sensors.pde
 #endif
 
-// FUNCTION: return the number of bytes currently free in RAM      
+// FUNCTION: return the number of ints currently free in RAM      
 extern int  __bss_end; // used by freemem 
 extern int  *__brkval; // used by freemem
 int freemem(){

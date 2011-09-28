@@ -1,1 +1,1 @@
-flightcommand.o: FlightCommand.c
+flightcommand.o: FlightCommand.cpp

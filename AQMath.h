@@ -433,13 +433,13 @@ float findMedian(float *data, int arraySize) {
 int findMedian(int *data, int arraySize) {                  //Thanks ala42! Post: http://aeroquad.com/showthread.php?1369-The-big-enhancement-addition-to-2.0-code/page5
   int temp;
 #endif
-  boolean done = 0;
-  //byte i;
+  bool done = 0;
+  //int i;
   
    // Sorts numbers from lowest to highest
   while (done != 1) {        
     done = 1;
-    for (byte i = 0; i<(arraySize-1); i++) {
+    for (int i = 0; i<(arraySize-1); i++) {
       if (data[i] > data[i+1]) {     // numbers are out of order - swap
         temp = data[i+1];
         data[i+1] = data[i];

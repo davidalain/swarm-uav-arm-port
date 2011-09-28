@@ -9,327 +9,2364 @@ Project File Date:  09/27/2011
 <h2>Output:</h2>
 Build target 'Target 1'
 assembling startup_LPC17xx.s...
-compiling AeroQuad.c...
-AeroQuad.c(114): error:  #5: cannot open source input file "EEPROM.h": No such file or directory
-compiling FlightCommand.c...
-FlightCommand.c(25): error:  #20: identifier "receiver" is undefined
-FlightCommand.c(27): error:  #20: identifier "THROTTLE" is undefined
-FlightCommand.c(27): error:  #20: identifier "MINCHECK" is undefined
-FlightCommand.c(28): warning:  #223-D: function "zeroIntegralError" declared implicitly
-FlightCommand.c(29): error:  #20: identifier "throttleAdjust" is undefined
-FlightCommand.c(32): error:  #20: identifier "YAW" is undefined
-FlightCommand.c(32): error:  #20: identifier "armed" is undefined
-FlightCommand.c(32): error:  #20: identifier "ON" is undefined
-FlightCommand.c(33): error:  #20: identifier "OFF" is undefined
-FlightCommand.c(34): error:  #20: identifier "motors" is undefined
-FlightCommand.c(34): error:  #20: identifier "MINCOMMAND" is undefined
-FlightCommand.c(40): error:  #20: identifier "ROLL" is undefined
-FlightCommand.c(40): error:  #20: identifier "MAXCHECK" is undefined
-FlightCommand.c(40): error:  #20: identifier "PITCH" is undefined
-FlightCommand.c(41): error:  #20: identifier "gyro" is undefined
-FlightCommand.c(42): error:  #20: identifier "accel" is undefined
-FlightCommand.c(48): error:  #20: identifier "motors" is undefined
-FlightCommand.c(58): error:  #20: identifier "OFF" is undefined
-FlightCommand.c(58): error:  #20: identifier "safetyCheck" is undefined
-FlightCommand.c(64): error:  #20: identifier "byte" is undefined
-FlightCommand.c(64): error:  #65: expected a ";"
-FlightCommand.c(64): error:  #20: identifier "motor" is undefined
-FlightCommand.c(64): error:  #20: identifier "LASTMOTOR" is undefined
-FlightCommand.c(65): error:  #20: identifier "motors" is undefined
-FlightCommand.c(65): error:  #20: identifier "MINTHROTTLE" is undefined
-FlightCommand.c(75): error:  #20: identifier "ROLL" is undefined
-FlightCommand.c(76): error:  #20: identifier "PITCH" is undefined
-FlightCommand.c(77): error:  #20: identifier "YAW" is undefined
-FlightCommand.c(87): error:  #20: identifier "MODE" is undefined
-FlightCommand.c(88): error:  #20: identifier "flightMode" is undefined
-FlightCommand.c(88): error:  #20: identifier "ACRO" is undefined
-compiling FlightControl.c...
-FlightControl.c(29): error:  #20: identifier "flightMode" is undefined
-FlightControl.c(29): error:  #20: identifier "ACRO" is undefined
-FlightControl.c(30): error:  #20: identifier "motors" is undefined
-FlightControl.c(30): error:  #20: identifier "ROLL" is undefined
-FlightControl.c(30): warning:  #223-D: function "updatePID" declared implicitly
-FlightControl.c(30): error:  #20: identifier "receiver" is undefined
-FlightControl.c(30): error:  #20: identifier "gyro" is undefined
-FlightControl.c(30): error:  #20: identifier "PID" is undefined
-FlightControl.c(31): error:  #20: identifier "PITCH" is undefined
-FlightControl.c(35): warning:  #223-D: function "updatePID" declared implicitly
-FlightControl.c(35): error:  #20: identifier "receiver" is undefined
-FlightControl.c(35): error:  #20: identifier "ROLL" is undefined
-FlightControl.c(35): error:  #20: identifier "PWM2RAD" is undefined
-FlightControl.c(35): error:  #20: identifier "flightAngle" is undefined
-FlightControl.c(35): error:  #20: identifier "PID" is undefined
-FlightControl.c(35): error:  #20: identifier "LEVELROLL" is undefined
-FlightControl.c(36): error:  #20: identifier "PITCH" is undefined
-FlightControl.c(36): error:  #20: identifier "LEVELPITCH" is undefined
-FlightControl.c(37): error:  #20: identifier "motors" is undefined
-FlightControl.c(37): error:  #20: identifier "gyro" is undefined
-FlightControl.c(37): error:  #20: identifier "LEVELGYROROLL" is undefined
-FlightControl.c(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
-FlightControl.c(47): error:  #20: identifier "calibrateESC" is undefined
-FlightControl.c(49): error:  #20: identifier "byte" is undefined
-FlightControl.c(49): error:  #65: expected a ";"
-FlightControl.c(49): error:  #20: identifier "motor" is undefined
-FlightControl.c(49): error:  #20: identifier "LASTMOTOR" is undefined
-FlightControl.c(50): error:  #20: identifier "motors" is undefined
-FlightControl.c(50): error:  #20: identifier "MAXCOMMAND" is undefined
-FlightControl.c(53): error:  #65: expected a ";"
-FlightControl.c(54): warning:  #223-D: function "constrain" declared implicitly
-FlightControl.c(54): error:  #20: identifier "testCommand" is undefined
-FlightControl.c(57): error:  #65: expected a ";"
-compiling SerialCom.c...
-SerialCom.c(32): error:  #20: identifier "bool" is undefined
-SerialCom.c(32): error:  #20: identifier "byte" is undefined
-SerialCom.c(34): warning:  #223-D: function "readFloatSerial" declared implicitly
-SerialCom.c(35): error:  #20: identifier "armed" is undefined
-SerialCom.c(35): error:  #20: identifier "OFF" is undefined
-SerialCom.c(36): error:  #20: identifier "calibrateESC" is undefined
-SerialCom.c(37): error:  #20: identifier "true" is undefined
-SerialCom.c(39): error:  #20: identifier "calibrateESC" is undefined
-SerialCom.c(40): error:  #20: identifier "testCommand" is undefined
-SerialCom.c(41): error:  #20: identifier "false" is undefined
-SerialCom.c(46): error:  #20: identifier "PID" is undefined
-SerialCom.c(47): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(47): warning:  #223-D: function "readFloatSerial" declared implicitly
-SerialCom.c(48): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(49): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(50): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(51): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(52): error:  #20: identifier "HEADING" is undefined
-SerialCom.c(53): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(53): error:  #20: identifier "TYPEPI" is undefined
-SerialCom.c(55): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(55): error:  #20: identifier "NOTYPE" is undefined
-SerialCom.c(56): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(56): error:  #20: identifier "true" is undefined
-SerialCom.c(61): warning:  #223-D: function "SERIAL_AVAILABLE" declared implicitly
-SerialCom.c(62): warning:  #223-D: function "digitalWrite" declared implicitly
-SerialCom.c(62): error:  #20: identifier "LEDPIN" is undefined
-SerialCom.c(62): error:  #20: identifier "LOW" is undefined
-SerialCom.c(63): error:  #20: identifier "queryType" is undefined
-SerialCom.c(63): warning:  #223-D: function "SERIAL_READ" declared implicitly
-SerialCom.c(66): error:  #20: identifier "ROLL" is undefined
-SerialCom.c(67): error:  #20: identifier "PITCH" is undefined
-SerialCom.c(68): error:  #20: identifier "minAcro" is undefined
-SerialCom.c(68): warning:  #223-D: function "readFloatSerial" declared implicitly
-SerialCom.c(71): error:  #20: identifier "YAW" is undefined
-SerialCom.c(72): error:  #20: identifier "HEADING" is undefined
+compiling AeroQuad.cpp...
+AeroQuad.cpp(115): error:  #5: cannot open source input file "Wire.h": No such file or directory
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
 Target not created
 Build target 'Target 1'
-compiling AeroQuad.c...
-AeroQuad.c(114): error:  #5: cannot open source input file "EEPROM.h": No such file or directory
-compiling FlightCommand.c...
-FlightCommand.c(25): error:  #20: identifier "receiver" is undefined
-FlightCommand.c(27): error:  #20: identifier "THROTTLE" is undefined
-FlightCommand.c(27): error:  #20: identifier "MINCHECK" is undefined
-FlightCommand.c(28): warning:  #223-D: function "zeroIntegralError" declared implicitly
-FlightCommand.c(29): error:  #20: identifier "throttleAdjust" is undefined
-FlightCommand.c(32): error:  #20: identifier "YAW" is undefined
-FlightCommand.c(32): error:  #20: identifier "armed" is undefined
-FlightCommand.c(32): error:  #20: identifier "ON" is undefined
-FlightCommand.c(33): error:  #20: identifier "OFF" is undefined
-FlightCommand.c(34): error:  #20: identifier "motors" is undefined
-FlightCommand.c(34): error:  #20: identifier "MINCOMMAND" is undefined
-FlightCommand.c(40): error:  #20: identifier "ROLL" is undefined
-FlightCommand.c(40): error:  #20: identifier "MAXCHECK" is undefined
-FlightCommand.c(40): error:  #20: identifier "PITCH" is undefined
-FlightCommand.c(41): error:  #20: identifier "gyro" is undefined
-FlightCommand.c(42): error:  #20: identifier "accel" is undefined
-FlightCommand.c(48): error:  #20: identifier "motors" is undefined
-FlightCommand.c(58): error:  #20: identifier "OFF" is undefined
-FlightCommand.c(58): error:  #20: identifier "safetyCheck" is undefined
-FlightCommand.c(64): error:  #20: identifier "byte" is undefined
-FlightCommand.c(64): error:  #65: expected a ";"
-FlightCommand.c(64): error:  #20: identifier "motor" is undefined
-FlightCommand.c(64): error:  #20: identifier "LASTMOTOR" is undefined
-FlightCommand.c(65): error:  #20: identifier "motors" is undefined
-FlightCommand.c(65): error:  #20: identifier "MINTHROTTLE" is undefined
-FlightCommand.c(75): error:  #20: identifier "ROLL" is undefined
-FlightCommand.c(76): error:  #20: identifier "PITCH" is undefined
-FlightCommand.c(77): error:  #20: identifier "YAW" is undefined
-FlightCommand.c(87): error:  #20: identifier "MODE" is undefined
-FlightCommand.c(88): error:  #20: identifier "flightMode" is undefined
-FlightCommand.c(88): error:  #20: identifier "ACRO" is undefined
-compiling FlightControl.c...
-FlightControl.c(29): error:  #20: identifier "flightMode" is undefined
-FlightControl.c(29): error:  #20: identifier "ACRO" is undefined
-FlightControl.c(30): error:  #20: identifier "motors" is undefined
-FlightControl.c(30): error:  #20: identifier "ROLL" is undefined
-FlightControl.c(30): warning:  #223-D: function "updatePID" declared implicitly
-FlightControl.c(30): error:  #20: identifier "receiver" is undefined
-FlightControl.c(30): error:  #20: identifier "gyro" is undefined
-FlightControl.c(30): error:  #20: identifier "PID" is undefined
-FlightControl.c(31): error:  #20: identifier "PITCH" is undefined
-FlightControl.c(35): warning:  #223-D: function "updatePID" declared implicitly
-FlightControl.c(35): error:  #20: identifier "receiver" is undefined
-FlightControl.c(35): error:  #20: identifier "ROLL" is undefined
-FlightControl.c(35): error:  #20: identifier "PWM2RAD" is undefined
-FlightControl.c(35): error:  #20: identifier "flightAngle" is undefined
-FlightControl.c(35): error:  #20: identifier "PID" is undefined
-FlightControl.c(35): error:  #20: identifier "LEVELROLL" is undefined
-FlightControl.c(36): error:  #20: identifier "PITCH" is undefined
-FlightControl.c(36): error:  #20: identifier "LEVELPITCH" is undefined
-FlightControl.c(37): error:  #20: identifier "motors" is undefined
-FlightControl.c(37): error:  #20: identifier "gyro" is undefined
-FlightControl.c(37): error:  #20: identifier "LEVELGYROROLL" is undefined
-FlightControl.c(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
-FlightControl.c(47): error:  #20: identifier "calibrateESC" is undefined
-FlightControl.c(49): error:  #20: identifier "byte" is undefined
-FlightControl.c(49): error:  #65: expected a ";"
-FlightControl.c(49): error:  #20: identifier "motor" is undefined
-FlightControl.c(49): error:  #20: identifier "LASTMOTOR" is undefined
-FlightControl.c(50): error:  #20: identifier "motors" is undefined
-FlightControl.c(50): error:  #20: identifier "MAXCOMMAND" is undefined
-FlightControl.c(53): error:  #65: expected a ";"
-FlightControl.c(54): warning:  #223-D: function "constrain" declared implicitly
-FlightControl.c(54): error:  #20: identifier "testCommand" is undefined
-FlightControl.c(57): error:  #65: expected a ";"
-compiling SerialCom.c...
-SerialCom.c(32): error:  #20: identifier "bool" is undefined
-SerialCom.c(32): error:  #20: identifier "byte" is undefined
-SerialCom.c(34): warning:  #223-D: function "readFloatSerial" declared implicitly
-SerialCom.c(35): error:  #20: identifier "armed" is undefined
-SerialCom.c(35): error:  #20: identifier "OFF" is undefined
-SerialCom.c(36): error:  #20: identifier "calibrateESC" is undefined
-SerialCom.c(37): error:  #20: identifier "true" is undefined
-SerialCom.c(39): error:  #20: identifier "calibrateESC" is undefined
-SerialCom.c(40): error:  #20: identifier "testCommand" is undefined
-SerialCom.c(41): error:  #20: identifier "false" is undefined
-SerialCom.c(46): error:  #20: identifier "PID" is undefined
-SerialCom.c(47): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(47): warning:  #223-D: function "readFloatSerial" declared implicitly
-SerialCom.c(48): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(49): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(50): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(51): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(52): error:  #20: identifier "HEADING" is undefined
-SerialCom.c(53): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(53): error:  #20: identifier "TYPEPI" is undefined
-SerialCom.c(55): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(55): error:  #20: identifier "NOTYPE" is undefined
-SerialCom.c(56): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(56): error:  #20: identifier "true" is undefined
-SerialCom.c(61): warning:  #223-D: function "SERIAL_AVAILABLE" declared implicitly
-SerialCom.c(62): warning:  #223-D: function "digitalWrite" declared implicitly
-SerialCom.c(62): error:  #20: identifier "LEDPIN" is undefined
-SerialCom.c(62): error:  #20: identifier "LOW" is undefined
-SerialCom.c(63): error:  #20: identifier "queryType" is undefined
-SerialCom.c(63): warning:  #223-D: function "SERIAL_READ" declared implicitly
-SerialCom.c(66): error:  #20: identifier "ROLL" is undefined
-SerialCom.c(67): error:  #20: identifier "PITCH" is undefined
-SerialCom.c(68): error:  #20: identifier "minAcro" is undefined
-SerialCom.c(68): warning:  #223-D: function "readFloatSerial" declared implicitly
-SerialCom.c(71): error:  #20: identifier "YAW" is undefined
-SerialCom.c(72): error:  #20: identifier "HEADING" is undefined
+compiling AeroQuad.cpp...
+AeroQuad.cpp(114): error:  #5: cannot open source input file "EEPROM.h": No such file or directory
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
 Target not created
-Build target 'Target 1'
-compiling AeroQuad.c...
-.\libraries\EEPROM\EEPROM.h(25): error:  #20: identifier "class" is undefined
-.\libraries\EEPROM\EEPROM.h(26): error:  #65: expected a ";"
-.\libraries\EEPROM\EEPROM.h(30): warning:  #12-D: parsing restarts here after previous syntax error
-.\libraries\EEPROM\EEPROM.h(32): error:  #757: variable "EEPROMClass" is not a type name
-AeroQuad.c(115): error:  #5: cannot open source input file "Wire.h": No such file or directory
-compiling FlightCommand.c...
-FlightCommand.c(25): error:  #20: identifier "receiver" is undefined
-FlightCommand.c(27): error:  #20: identifier "THROTTLE" is undefined
-FlightCommand.c(27): error:  #20: identifier "MINCHECK" is undefined
-FlightCommand.c(28): warning:  #223-D: function "zeroIntegralError" declared implicitly
-FlightCommand.c(29): error:  #20: identifier "throttleAdjust" is undefined
-FlightCommand.c(32): error:  #20: identifier "YAW" is undefined
-FlightCommand.c(32): error:  #20: identifier "armed" is undefined
-FlightCommand.c(32): error:  #20: identifier "ON" is undefined
-FlightCommand.c(33): error:  #20: identifier "OFF" is undefined
-FlightCommand.c(34): error:  #20: identifier "motors" is undefined
-FlightCommand.c(34): error:  #20: identifier "MINCOMMAND" is undefined
-FlightCommand.c(40): error:  #20: identifier "ROLL" is undefined
-FlightCommand.c(40): error:  #20: identifier "MAXCHECK" is undefined
-FlightCommand.c(40): error:  #20: identifier "PITCH" is undefined
-FlightCommand.c(41): error:  #20: identifier "gyro" is undefined
-FlightCommand.c(42): error:  #20: identifier "accel" is undefined
-FlightCommand.c(48): error:  #20: identifier "motors" is undefined
-FlightCommand.c(58): error:  #20: identifier "OFF" is undefined
-FlightCommand.c(58): error:  #20: identifier "safetyCheck" is undefined
-FlightCommand.c(64): error:  #20: identifier "byte" is undefined
-FlightCommand.c(64): error:  #65: expected a ";"
-FlightCommand.c(64): error:  #20: identifier "motor" is undefined
-FlightCommand.c(64): error:  #20: identifier "LASTMOTOR" is undefined
-FlightCommand.c(65): error:  #20: identifier "motors" is undefined
-FlightCommand.c(65): error:  #20: identifier "MINTHROTTLE" is undefined
-FlightCommand.c(75): error:  #20: identifier "ROLL" is undefined
-FlightCommand.c(76): error:  #20: identifier "PITCH" is undefined
-FlightCommand.c(77): error:  #20: identifier "YAW" is undefined
-FlightCommand.c(87): error:  #20: identifier "MODE" is undefined
-FlightCommand.c(88): error:  #20: identifier "flightMode" is undefined
-FlightCommand.c(88): error:  #20: identifier "ACRO" is undefined
-compiling FlightControl.c...
-FlightControl.c(29): error:  #20: identifier "flightMode" is undefined
-FlightControl.c(29): error:  #20: identifier "ACRO" is undefined
-FlightControl.c(30): error:  #20: identifier "motors" is undefined
-FlightControl.c(30): error:  #20: identifier "ROLL" is undefined
-FlightControl.c(30): warning:  #223-D: function "updatePID" declared implicitly
-FlightControl.c(30): error:  #20: identifier "receiver" is undefined
-FlightControl.c(30): error:  #20: identifier "gyro" is undefined
-FlightControl.c(30): error:  #20: identifier "PID" is undefined
-FlightControl.c(31): error:  #20: identifier "PITCH" is undefined
-FlightControl.c(35): warning:  #223-D: function "updatePID" declared implicitly
-FlightControl.c(35): error:  #20: identifier "receiver" is undefined
-FlightControl.c(35): error:  #20: identifier "ROLL" is undefined
-FlightControl.c(35): error:  #20: identifier "PWM2RAD" is undefined
-FlightControl.c(35): error:  #20: identifier "flightAngle" is undefined
-FlightControl.c(35): error:  #20: identifier "PID" is undefined
-FlightControl.c(35): error:  #20: identifier "LEVELROLL" is undefined
-FlightControl.c(36): error:  #20: identifier "PITCH" is undefined
-FlightControl.c(36): error:  #20: identifier "LEVELPITCH" is undefined
-FlightControl.c(37): error:  #20: identifier "motors" is undefined
-FlightControl.c(37): error:  #20: identifier "gyro" is undefined
-FlightControl.c(37): error:  #20: identifier "LEVELGYROROLL" is undefined
-FlightControl.c(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
-FlightControl.c(47): error:  #20: identifier "calibrateESC" is undefined
-FlightControl.c(49): error:  #20: identifier "byte" is undefined
-FlightControl.c(49): error:  #65: expected a ";"
-FlightControl.c(49): error:  #20: identifier "motor" is undefined
-FlightControl.c(49): error:  #20: identifier "LASTMOTOR" is undefined
-FlightControl.c(50): error:  #20: identifier "motors" is undefined
-FlightControl.c(50): error:  #20: identifier "MAXCOMMAND" is undefined
-FlightControl.c(53): error:  #65: expected a ";"
-FlightControl.c(54): warning:  #223-D: function "constrain" declared implicitly
-FlightControl.c(54): error:  #20: identifier "testCommand" is undefined
-FlightControl.c(57): error:  #65: expected a ";"
-compiling SerialCom.c...
-SerialCom.c(32): error:  #20: identifier "bool" is undefined
-SerialCom.c(32): error:  #20: identifier "byte" is undefined
-SerialCom.c(34): warning:  #223-D: function "readFloatSerial" declared implicitly
-SerialCom.c(35): error:  #20: identifier "armed" is undefined
-SerialCom.c(35): error:  #20: identifier "OFF" is undefined
-SerialCom.c(36): error:  #20: identifier "calibrateESC" is undefined
-SerialCom.c(37): error:  #20: identifier "true" is undefined
-SerialCom.c(39): error:  #20: identifier "calibrateESC" is undefined
-SerialCom.c(40): error:  #20: identifier "testCommand" is undefined
-SerialCom.c(41): error:  #20: identifier "false" is undefined
-SerialCom.c(46): error:  #20: identifier "PID" is undefined
-SerialCom.c(47): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(47): warning:  #223-D: function "readFloatSerial" declared implicitly
-SerialCom.c(48): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(49): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(50): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(51): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(52): error:  #20: identifier "HEADING" is undefined
-SerialCom.c(53): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(53): error:  #20: identifier "TYPEPI" is undefined
-SerialCom.c(55): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(55): error:  #20: identifier "NOTYPE" is undefined
-SerialCom.c(56): error:  #393: pointer to incomplete class type is not allowed
-SerialCom.c(56): error:  #20: identifier "true" is undefined
-SerialCom.c(61): warning:  #223-D: function "SERIAL_AVAILABLE" declared implicitly
-SerialCom.c(62): warning:  #223-D: function "digitalWrite" declared implicitly
-SerialCom.c(62): error:  #20: identifier "LEDPIN" is undefined
-SerialCom.c(62): error:  #20: identifier "LOW" is undefined
-SerialCom.c(63): error:  #20: identifier "queryType" is undefined
-SerialCom.c(63): warning:  #223-D: function "SERIAL_READ" declared implicitly
-SerialCom.c(66): error:  #20: identifier "ROLL" is undefined
-SerialCom.c(67): error:  #20: identifier "PITCH" is undefined
-SerialCom.c(68): error:  #20: identifier "minAcro" is undefined
-SerialCom.c(68): warning:  #223-D: function "readFloatSerial" declared implicitly
-SerialCom.c(71): error:  #20: identifier "YAW" is undefined
-SerialCom.c(72): error:  #20: identifier "HEADING" is undefined
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.cpp(114): error:  #5: cannot open source input file "EEPROM.h": No such file or directory
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(23): error:  #5: cannot open source input file "WProgram.h": No such file or directory
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(23): error:  #5: cannot open source input file "WProgram.h": No such file or directory
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.cpp: Error: C3065E: type of input file 'Software\hardware\arduino\cores\arduino' unknown
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+.\arduino\WProgram.h(8): error:  #5: cannot open source input file "avr/interrupt.h": No such file or directory
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+.\arduino\WProgram.h(8): error:  #5: cannot open source input file "avr/interrupt.h": No such file or directory
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+.\arduino\WProgram.h(8): error:  #5: cannot open source input file "avr/interrupt.h": No such file or directory
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(23): error:  #5: cannot open source input file "WProgram.h": No such file or directory
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(24): error:  #5: cannot open source input file "pins_arduino.h": No such file or directory
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(148): error:  #20: identifier "byte" is undefined
+AeroQuad.h(168): error:  #20: identifier "byte" is undefined
+AeroQuad.h(178): error:  #20: identifier "micros" is undefined
+AeroQuad.h(179): error:  #20: identifier "byte" is undefined
+AeroQuad.h(199): error:  #20: identifier "byte" is undefined
+AeroQuad.h(200): error:  #20: identifier "byte" is undefined
+AeroQuad.h(225): error:  #20: identifier "byte" is undefined
+AeroQuad.h(230): error:  #20: identifier "byte" is undefined
+AeroQuad.h(231): error:  #20: identifier "byte" is undefined
+AeroQuad.h(232): error:  #20: identifier "byte" is undefined
+AeroQuad.h(233): error:  #20: identifier "byte" is undefined
+AeroQuad.h(234): error:  #20: identifier "HardwareSerial" is undefined
+AeroQuad.h(305): error:  #20: identifier "byte" is undefined
+AeroQuad.h(306): error:  #20: identifier "byte" is undefined
+AeroQuad.h(307): error:  #20: identifier "byte" is undefined
+AeroQuad.h(308): error:  #20: identifier "byte" is undefined
+AeroQuad.h(312): error:  #20: identifier "byte" is undefined
+AeroQuad.h(313): error:  #20: identifier "byte" is undefined
+AeroQuad.h(313): error:  #20: identifier "LOW" is undefined
+I2C.h(23): error:  #20: identifier "byte" is undefined
+I2C.h(29): error:  #20: identifier "byte" is undefined
+I2C.h(50): error:  #20: identifier "byte" is undefined
+I2C.h(56): error:  #20: identifier "byte" is undefined
+I2C.h(61): error:  #20: identifier "delay" is undefined
+I2C.h(66): error:  #20: identifier "byte" is undefined
+I2C.h(66): error:  #20: identifier "byte" is undefined
+PID.h(42): error:  #20: identifier "constrain" is undefined
+PID.h(46): error:  #20: identifier "constrain" is undefined
+PID.h(57): error:  #20: identifier "byte" is undefined
+AQMath.h(144): warning:  #815-D: type qualifier on return type is meaningless
+AQMath.h(155): error:  #20: identifier "memcpy" is undefined
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(178): error:  #20: identifier "micros" is undefined
+AeroQuad.h(234): error:  #20: identifier "HardwareSerial" is undefined
+AeroQuad.h(313): error:  #20: identifier "LOW" is undefined
+I2C.h(23): error:  #20: identifier "byte" is undefined
+I2C.h(29): error:  #20: identifier "byte" is undefined
+I2C.h(50): error:  #20: identifier "byte" is undefined
+I2C.h(56): error:  #20: identifier "byte" is undefined
+I2C.h(61): error:  #20: identifier "delay" is undefined
+I2C.h(66): error:  #20: identifier "byte" is undefined
+I2C.h(66): error:  #20: identifier "byte" is undefined
+PID.h(42): error:  #20: identifier "constrain" is undefined
+PID.h(46): error:  #20: identifier "constrain" is undefined
+PID.h(57): error:  #20: identifier "byte" is undefined
+AQMath.h(144): warning:  #815-D: type qualifier on return type is meaningless
+AQMath.h(155): error:  #20: identifier "memcpy" is undefined
+AQMath.h(408): error:  #20: identifier "PI" is undefined
+AQMath.h(436): error:  #20: identifier "boolean" is undefined
+AQMath.h(442): error:  #20: identifier "byte" is undefined
+Receiver.h(71): error:  #20: identifier "byte" is undefined
+Receiver.h(71): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(76): error:  #20: identifier "byte" is undefined
+Receiver.h(76): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(81): error:  #20: identifier "byte" is undefined
+Receiver.h(81): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(86): error:  #20: identifier "byte" is undefined
+Receiver.h(86): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(93): error:  #20: identifier "byte" is undefined
+Receiver.h(93): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(98): error:  #20: identifier "byte" is undefined
+Receiver.h(98): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(102): error:  #20: identifier "byte" is undefined
+Receiver.h(106): error:  #20: identifier "byte" is undefined
+Receiver.h(106): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(110): error:  #20: identifier "byte" is undefined
+Receiver.h(114): error:  #20: identifier "byte" is undefined
+Receiver.h(114): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(118): error:  #20: identifier "byte" is undefined
+Receiver.h(122): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(130): error:  #20: identifier "byte" is undefined
+Receiver.h(130): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(134): error:  #20: identifier "byte" is undefined
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(178): error:  #20: identifier "micros" is undefined
+AeroQuad.h(234): error:  #20: identifier "HardwareSerial" is undefined
+AeroQuad.h(313): error:  #20: identifier "LOW" is undefined
+I2C.h(61): error:  #20: identifier "delay" is undefined
+PID.h(42): error:  #20: identifier "constrain" is undefined
+PID.h(46): error:  #20: identifier "constrain" is undefined
+PID.h(57): error:  #20: identifier "byte" is undefined
+AQMath.h(144): warning:  #815-D: type qualifier on return type is meaningless
+AQMath.h(155): error:  #20: identifier "memcpy" is undefined
+AQMath.h(408): error:  #20: identifier "PI" is undefined
+AQMath.h(436): error:  #20: identifier "boolean" is undefined
+AQMath.h(442): error:  #20: identifier "byte" is undefined
+Receiver.h(71): error:  #20: identifier "byte" is undefined
+Receiver.h(71): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(76): error:  #20: identifier "byte" is undefined
+Receiver.h(76): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(81): error:  #20: identifier "byte" is undefined
+Receiver.h(81): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(86): error:  #20: identifier "byte" is undefined
+Receiver.h(86): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(93): error:  #20: identifier "byte" is undefined
+Receiver.h(93): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(98): error:  #20: identifier "byte" is undefined
+Receiver.h(98): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(102): error:  #20: identifier "byte" is undefined
+Receiver.h(106): error:  #20: identifier "byte" is undefined
+Receiver.h(106): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(110): error:  #20: identifier "byte" is undefined
+Receiver.h(114): error:  #20: identifier "byte" is undefined
+Receiver.h(114): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(118): error:  #20: identifier "byte" is undefined
+Receiver.h(122): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(130): error:  #20: identifier "byte" is undefined
+Receiver.h(130): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(134): error:  #20: identifier "byte" is undefined
+Receiver.h(138): error:  #20: identifier "byte" is undefined
+Receiver.h(138): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(142): error:  #20: identifier "byte" is undefined
+Receiver.h(146): error:  #20: identifier "byte" is undefined
+Receiver.h(146): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(44): error:  #20: identifier "byte" is undefined
+Receiver.h(46): error:  #20: identifier "byte" is undefined
+Receiver.h(63): error:  #20: identifier "byte" is undefined
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(178): error:  #20: identifier "micros" is undefined
+AeroQuad.h(234): error:  #20: identifier "HardwareSerial" is undefined
+AeroQuad.h(313): error:  #20: identifier "LOW" is undefined
+I2C.h(61): error:  #20: identifier "delay" is undefined
+PID.h(42): error:  #20: identifier "constrain" is undefined
+PID.h(46): error:  #20: identifier "constrain" is undefined
+AQMath.h(144): warning:  #815-D: type qualifier on return type is meaningless
+AQMath.h(155): error:  #20: identifier "memcpy" is undefined
+AQMath.h(408): error:  #20: identifier "PI" is undefined
+AQMath.h(436): error:  #20: identifier "boolean" is undefined
+AQMath.h(442): error:  #20: identifier "byte" is undefined
+Receiver.h(71): error:  #20: identifier "byte" is undefined
+Receiver.h(71): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(76): error:  #20: identifier "byte" is undefined
+Receiver.h(76): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(81): error:  #20: identifier "byte" is undefined
+Receiver.h(81): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(86): error:  #20: identifier "byte" is undefined
+Receiver.h(86): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(93): error:  #20: identifier "byte" is undefined
+Receiver.h(93): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(98): error:  #20: identifier "byte" is undefined
+Receiver.h(98): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(102): error:  #20: identifier "byte" is undefined
+Receiver.h(106): error:  #20: identifier "byte" is undefined
+Receiver.h(106): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(110): error:  #20: identifier "byte" is undefined
+Receiver.h(114): error:  #20: identifier "byte" is undefined
+Receiver.h(114): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(118): error:  #20: identifier "byte" is undefined
+Receiver.h(122): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(130): error:  #20: identifier "byte" is undefined
+Receiver.h(130): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(134): error:  #20: identifier "byte" is undefined
+Receiver.h(138): error:  #20: identifier "byte" is undefined
+Receiver.h(138): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(142): error:  #20: identifier "byte" is undefined
+Receiver.h(146): error:  #20: identifier "byte" is undefined
+Receiver.h(146): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(44): error:  #20: identifier "byte" is undefined
+Receiver.h(46): error:  #20: identifier "byte" is undefined
+Receiver.h(63): error:  #20: identifier "byte" is undefined
+Receiver.h(299): error:  #20: identifier "PCMSK0" is undefined
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "byte" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(178): error:  #20: identifier "micros" is undefined
+AeroQuad.h(234): error:  #20: identifier "HardwareSerial" is undefined
+AeroQuad.h(313): error:  #20: identifier "LOW" is undefined
+I2C.h(61): error:  #20: identifier "delay" is undefined
+PID.h(42): error:  #20: identifier "constrain" is undefined
+PID.h(46): error:  #20: identifier "constrain" is undefined
+AQMath.h(144): warning:  #815-D: type qualifier on return type is meaningless
+AQMath.h(155): error:  #20: identifier "memcpy" is undefined
+AQMath.h(408): error:  #20: identifier "PI" is undefined
+AQMath.h(436): error:  #20: identifier "boolean" is undefined
+AQMath.h(442): error:  #20: identifier "byte" is undefined
+Receiver.h(71): error:  #20: identifier "byte" is undefined
+Receiver.h(71): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(76): error:  #20: identifier "byte" is undefined
+Receiver.h(76): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(81): error:  #20: identifier "byte" is undefined
+Receiver.h(81): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(86): error:  #20: identifier "byte" is undefined
+Receiver.h(86): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(93): error:  #20: identifier "byte" is undefined
+Receiver.h(93): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(98): error:  #20: identifier "byte" is undefined
+Receiver.h(98): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(102): error:  #20: identifier "byte" is undefined
+Receiver.h(106): error:  #20: identifier "byte" is undefined
+Receiver.h(106): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(110): error:  #20: identifier "byte" is undefined
+Receiver.h(114): error:  #20: identifier "byte" is undefined
+Receiver.h(114): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(118): error:  #20: identifier "byte" is undefined
+Receiver.h(122): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(130): error:  #20: identifier "byte" is undefined
+Receiver.h(130): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(134): error:  #20: identifier "byte" is undefined
+Receiver.h(138): error:  #20: identifier "byte" is undefined
+Receiver.h(138): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(142): error:  #20: identifier "byte" is undefined
+Receiver.h(146): error:  #20: identifier "byte" is undefined
+Receiver.h(146): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(44): error:  #20: identifier "byte" is undefined
+Receiver.h(46): error:  #20: identifier "byte" is undefined
+Receiver.h(63): error:  #20: identifier "byte" is undefined
+Receiver.h(299): error:  #20: identifier "PCMSK0" is undefined
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(53): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(54): error:  #20: identifier "motors" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(178): error:  #20: identifier "micros" is undefined
+AeroQuad.h(234): error:  #20: identifier "HardwareSerial" is undefined
+AeroQuad.h(313): error:  #20: identifier "LOW" is undefined
+I2C.h(61): error:  #20: identifier "delay" is undefined
+PID.h(42): error:  #20: identifier "constrain" is undefined
+PID.h(46): error:  #20: identifier "constrain" is undefined
+AQMath.h(144): warning:  #815-D: type qualifier on return type is meaningless
+AQMath.h(155): error:  #20: identifier "memcpy" is undefined
+AQMath.h(408): error:  #20: identifier "PI" is undefined
+AQMath.h(436): error:  #20: identifier "boolean" is undefined
+Receiver.h(71): error:  #20: identifier "byte" is undefined
+Receiver.h(71): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(76): error:  #20: identifier "byte" is undefined
+Receiver.h(76): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(81): error:  #20: identifier "byte" is undefined
+Receiver.h(81): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(86): error:  #20: identifier "byte" is undefined
+Receiver.h(86): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(93): error:  #20: identifier "byte" is undefined
+Receiver.h(93): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(98): error:  #20: identifier "byte" is undefined
+Receiver.h(98): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(102): error:  #20: identifier "byte" is undefined
+Receiver.h(106): error:  #20: identifier "byte" is undefined
+Receiver.h(106): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(110): error:  #20: identifier "byte" is undefined
+Receiver.h(114): error:  #20: identifier "byte" is undefined
+Receiver.h(114): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(118): error:  #20: identifier "byte" is undefined
+Receiver.h(122): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(130): error:  #20: identifier "byte" is undefined
+Receiver.h(130): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(134): error:  #20: identifier "byte" is undefined
+Receiver.h(138): error:  #20: identifier "byte" is undefined
+Receiver.h(138): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(142): error:  #20: identifier "byte" is undefined
+Receiver.h(146): error:  #20: identifier "byte" is undefined
+Receiver.h(146): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(44): error:  #20: identifier "byte" is undefined
+Receiver.h(46): error:  #20: identifier "byte" is undefined
+Receiver.h(63): error:  #20: identifier "byte" is undefined
+Receiver.h(299): error:  #20: identifier "PCMSK0" is undefined
+Receiver.h(300): error:  #20: identifier "PCMSK1" is undefined
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(53): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(54): error:  #20: identifier "motors" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(178): error:  #20: identifier "micros" is undefined
+AeroQuad.h(234): error:  #20: identifier "HardwareSerial" is undefined
+AeroQuad.h(313): error:  #20: identifier "LOW" is undefined
+I2C.h(61): error:  #20: identifier "delay" is undefined
+PID.h(42): error:  #20: identifier "constrain" is undefined
+PID.h(46): error:  #20: identifier "constrain" is undefined
+AQMath.h(144): warning:  #815-D: type qualifier on return type is meaningless
+AQMath.h(155): error:  #20: identifier "memcpy" is undefined
+AQMath.h(408): error:  #20: identifier "PI" is undefined
+Receiver.h(71): error:  #20: identifier "byte" is undefined
+Receiver.h(71): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(76): error:  #20: identifier "byte" is undefined
+Receiver.h(76): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(81): error:  #20: identifier "byte" is undefined
+Receiver.h(81): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(86): error:  #20: identifier "byte" is undefined
+Receiver.h(86): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(93): error:  #20: identifier "byte" is undefined
+Receiver.h(93): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(98): error:  #20: identifier "byte" is undefined
+Receiver.h(98): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(102): error:  #20: identifier "byte" is undefined
+Receiver.h(106): error:  #20: identifier "byte" is undefined
+Receiver.h(106): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(110): error:  #20: identifier "byte" is undefined
+Receiver.h(114): error:  #20: identifier "byte" is undefined
+Receiver.h(114): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(118): error:  #20: identifier "byte" is undefined
+Receiver.h(122): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(130): error:  #20: identifier "byte" is undefined
+Receiver.h(130): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(134): error:  #20: identifier "byte" is undefined
+Receiver.h(138): error:  #20: identifier "byte" is undefined
+Receiver.h(138): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(142): error:  #20: identifier "byte" is undefined
+Receiver.h(146): error:  #20: identifier "byte" is undefined
+Receiver.h(146): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(44): error:  #20: identifier "byte" is undefined
+Receiver.h(46): error:  #20: identifier "byte" is undefined
+Receiver.h(63): error:  #20: identifier "byte" is undefined
+Receiver.h(299): error:  #20: identifier "PCMSK0" is undefined
+Receiver.h(300): error:  #20: identifier "PCMSK1" is undefined
+Receiver.h(301): error:  #20: identifier "PCMSK2" is undefined
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(53): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(54): error:  #20: identifier "motors" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(178): error:  #20: identifier "micros" is undefined
+AeroQuad.h(234): error:  #20: identifier "HardwareSerial" is undefined
+AeroQuad.h(313): error:  #20: identifier "LOW" is undefined
+I2C.h(61): error:  #20: identifier "delay" is undefined
+PID.h(42): error:  #20: identifier "constrain" is undefined
+PID.h(46): error:  #20: identifier "constrain" is undefined
+AQMath.h(144): warning:  #815-D: type qualifier on return type is meaningless
+AQMath.h(155): error:  #20: identifier "memcpy" is undefined
+AQMath.h(408): error:  #20: identifier "PI" is undefined
+Receiver.h(71): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(76): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(81): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(86): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(93): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(98): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(106): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(114): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(122): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(130): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(138): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(146): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(299): error:  #20: identifier "PCMSK0" is undefined
+Receiver.h(300): error:  #20: identifier "PCMSK1" is undefined
+Receiver.h(301): error:  #20: identifier "PCMSK2" is undefined
+Receiver.h(321): error:  #20: identifier "portInputRegister" is undefined
+Receiver.h(358): error:  #20: identifier "PCINT2_vect" is undefined
+Receiver.h(358): error:  #260-D: explicit type is missing ("int" assumed)
+Receiver.h(360): warning:  #940-D: missing return statement at end of non-void function "SIGNAL"
+Receiver.h(372): warning:  #1300-D: initialize inherits implicit virtual
+Receiver.h(385): warning:  #1300-D: read inherits implicit virtual
+Receiver.h(374): error:  #20: identifier "DDRK" is undefined
+Receiver.h(375): error:  #20: identifier "PORTK" is undefined
+Receiver.h(377): error:  #20: identifier "PCICR" is undefined
+Receiver.h(388): error:  #20: identifier "SREG" is undefined
+Receiver.h(389): error:  #20: identifier "cli" is undefined
+DataAcquisition.h(147): error:  #20: identifier "byte" is undefined
+DataAcquisition.h(162): error:  #20: identifier "delay" is undefined
+DataAcquisition.h(171): error:  #20: identifier "byte" is undefined
+DataAcquisition.h(174): error:  #20: identifier "byte" is undefined
+DataAcquisition.h(193): error:  #20: identifier "delay" is undefined
+Accel.h(36): error:  #20: identifier "byte" is undefined
+Accel.h(54): error:  #20: identifier "byte" is undefined
+Accel.h(54): warning:  #815-D: type qualifier on return type is meaningless
+Accel.h(59): error:  #20: identifier "byte" is undefined
+Accel.h(59): error:  #20: identifier "byte" is undefined
+Accel.h(59): error:  #20: identifier "byte" is undefined
+Accel.h(70): error:  #20: identifier "byte" is undefined
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(53): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(54): error:  #20: identifier "motors" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(178): error:  #20: identifier "micros" is undefined
+AeroQuad.h(234): error:  #20: identifier "HardwareSerial" is undefined
+AeroQuad.h(313): error:  #20: identifier "LOW" is undefined
+I2C.h(61): error:  #20: identifier "delay" is undefined
+PID.h(42): error:  #20: identifier "constrain" is undefined
+PID.h(46): error:  #20: identifier "constrain" is undefined
+AQMath.h(144): warning:  #815-D: type qualifier on return type is meaningless
+AQMath.h(155): error:  #20: identifier "memcpy" is undefined
+AQMath.h(408): error:  #20: identifier "PI" is undefined
+Receiver.h(71): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(76): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(81): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(86): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(93): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(98): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(106): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(114): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(122): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(130): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(138): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(146): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(299): error:  #20: identifier "PCMSK0" is undefined
+Receiver.h(300): error:  #20: identifier "PCMSK1" is undefined
+Receiver.h(301): error:  #20: identifier "PCMSK2" is undefined
+Receiver.h(321): error:  #20: identifier "portInputRegister" is undefined
+Receiver.h(358): error:  #20: identifier "PCINT2_vect" is undefined
+Receiver.h(358): error:  #260-D: explicit type is missing ("int" assumed)
+Receiver.h(360): warning:  #940-D: missing return statement at end of non-void function "SIGNAL"
+Receiver.h(372): warning:  #1300-D: initialize inherits implicit virtual
+Receiver.h(385): warning:  #1300-D: read inherits implicit virtual
+Receiver.h(374): error:  #20: identifier "DDRK" is undefined
+Receiver.h(375): error:  #20: identifier "PORTK" is undefined
+Receiver.h(377): error:  #20: identifier "PCICR" is undefined
+Receiver.h(388): error:  #20: identifier "SREG" is undefined
+Receiver.h(389): error:  #20: identifier "cli" is undefined
+DataAcquisition.h(147): error:  #20: identifier "byte" is undefined
+DataAcquisition.h(162): error:  #20: identifier "delay" is undefined
+DataAcquisition.h(171): error:  #20: identifier "byte" is undefined
+DataAcquisition.h(174): error:  #20: identifier "byte" is undefined
+DataAcquisition.h(193): error:  #20: identifier "delay" is undefined
+Accel.h(36): error:  #20: identifier "byte" is undefined
+Accel.h(54): error:  #20: identifier "byte" is undefined
+Accel.h(54): warning:  #815-D: type qualifier on return type is meaningless
+Accel.h(59): error:  #20: identifier "byte" is undefined
+Accel.h(59): error:  #20: identifier "byte" is undefined
+Accel.h(59): error:  #20: identifier "byte" is undefined
+Accel.h(70): error:  #20: identifier "byte" is undefined
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(53): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(54): error:  #20: identifier "motors" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(32): error:  #20: identifier "byte" is undefined
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+Target not created
+Build target 'CortexM3_LPC1768'
+compiling AeroQuad.cpp...
+AeroQuad.h(178): error:  #20: identifier "micros" is undefined
+AeroQuad.h(234): error:  #20: identifier "HardwareSerial" is undefined
+AeroQuad.h(313): error:  #20: identifier "LOW" is undefined
+I2C.h(61): error:  #20: identifier "delay" is undefined
+PID.h(42): error:  #20: identifier "constrain" is undefined
+PID.h(46): error:  #20: identifier "constrain" is undefined
+AQMath.h(144): warning:  #815-D: type qualifier on return type is meaningless
+AQMath.h(155): error:  #20: identifier "memcpy" is undefined
+AQMath.h(408): error:  #20: identifier "PI" is undefined
+Receiver.h(71): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(76): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(81): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(86): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(93): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(98): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(106): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(114): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(122): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(130): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(138): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(146): warning:  #815-D: type qualifier on return type is meaningless
+Receiver.h(299): error:  #20: identifier "PCMSK0" is undefined
+Receiver.h(300): error:  #20: identifier "PCMSK1" is undefined
+Receiver.h(301): error:  #20: identifier "PCMSK2" is undefined
+Receiver.h(321): error:  #20: identifier "portInputRegister" is undefined
+Receiver.h(358): error:  #20: identifier "PCINT2_vect" is undefined
+Receiver.h(358): error:  #260-D: explicit type is missing ("int" assumed)
+Receiver.h(360): warning:  #940-D: missing return statement at end of non-void function "SIGNAL"
+Receiver.h(372): warning:  #1300-D: initialize inherits implicit virtual
+Receiver.h(385): warning:  #1300-D: read inherits implicit virtual
+Receiver.h(374): error:  #20: identifier "DDRK" is undefined
+Receiver.h(375): error:  #20: identifier "PORTK" is undefined
+Receiver.h(377): error:  #20: identifier "PCICR" is undefined
+Receiver.h(388): error:  #20: identifier "SREG" is undefined
+Receiver.h(389): error:  #20: identifier "cli" is undefined
+DataAcquisition.h(147): error:  #20: identifier "byte" is undefined
+DataAcquisition.h(162): error:  #20: identifier "delay" is undefined
+DataAcquisition.h(171): error:  #20: identifier "byte" is undefined
+DataAcquisition.h(174): error:  #20: identifier "byte" is undefined
+DataAcquisition.h(193): error:  #20: identifier "delay" is undefined
+Accel.h(36): error:  #20: identifier "byte" is undefined
+Accel.h(54): error:  #20: identifier "byte" is undefined
+Accel.h(54): warning:  #815-D: type qualifier on return type is meaningless
+Accel.h(59): error:  #20: identifier "byte" is undefined
+Accel.h(59): error:  #20: identifier "byte" is undefined
+Accel.h(59): error:  #20: identifier "byte" is undefined
+Accel.h(70): error:  #20: identifier "byte" is undefined
+compiling FlightCommand.cpp...
+FlightCommand.cpp(25): error:  #20: identifier "receiver" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "THROTTLE" is undefined
+FlightCommand.cpp(27): error:  #20: identifier "MINCHECK" is undefined
+FlightCommand.cpp(28): error:  #20: identifier "zeroIntegralError" is undefined
+FlightCommand.cpp(29): error:  #20: identifier "throttleAdjust" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "armed" is undefined
+FlightCommand.cpp(32): error:  #20: identifier "ON" is undefined
+FlightCommand.cpp(33): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(34): error:  #20: identifier "MINCOMMAND" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "MAXCHECK" is undefined
+FlightCommand.cpp(40): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(41): error:  #20: identifier "gyro" is undefined
+FlightCommand.cpp(42): error:  #20: identifier "accel" is undefined
+FlightCommand.cpp(48): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "OFF" is undefined
+FlightCommand.cpp(58): error:  #20: identifier "safetyCheck" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "byte" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "FRONT" is undefined
+FlightCommand.cpp(64): error:  #20: identifier "LASTMOTOR" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "motors" is undefined
+FlightCommand.cpp(65): error:  #20: identifier "MINTHROTTLE" is undefined
+FlightCommand.cpp(75): error:  #20: identifier "ROLL" is undefined
+FlightCommand.cpp(76): error:  #20: identifier "PITCH" is undefined
+FlightCommand.cpp(77): error:  #20: identifier "YAW" is undefined
+FlightCommand.cpp(87): error:  #20: identifier "MODE" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "flightMode" is undefined
+FlightCommand.cpp(88): error:  #20: identifier "ACRO" is undefined
+compiling FlightControl.cpp...
+FlightControl.cpp(29): error:  #20: identifier "flightMode" is undefined
+FlightControl.cpp(29): error:  #20: identifier "ACRO" is undefined
+FlightControl.cpp(30): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(30): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(30): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(30): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(30): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(30): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(31): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(35): error:  #20: identifier "receiver" is undefined
+FlightControl.cpp(35): error:  #20: identifier "ROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PWM2RAD" is undefined
+FlightControl.cpp(35): error:  #20: identifier "flightAngle" is undefined
+FlightControl.cpp(35): error:  #20: identifier "PID" is undefined
+FlightControl.cpp(35): error:  #20: identifier "LEVELROLL" is undefined
+FlightControl.cpp(35): error:  #20: identifier "updatePID" is undefined
+FlightControl.cpp(36): error:  #20: identifier "PITCH" is undefined
+FlightControl.cpp(36): error:  #20: identifier "LEVELPITCH" is undefined
+FlightControl.cpp(37): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(37): error:  #20: identifier "gyro" is undefined
+FlightControl.cpp(37): error:  #20: identifier "LEVELGYROROLL" is undefined
+FlightControl.cpp(38): error:  #20: identifier "LEVELGYROPITCH" is undefined
+FlightControl.cpp(47): error:  #20: identifier "calibrateESC" is undefined
+FlightControl.cpp(49): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(49): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(50): error:  #20: identifier "motors" is undefined
+FlightControl.cpp(50): error:  #20: identifier "MAXCOMMAND" is undefined
+FlightControl.cpp(53): error:  #20: identifier "FRONT" is undefined
+FlightControl.cpp(53): error:  #20: identifier "LASTMOTOR" is undefined
+FlightControl.cpp(54): error:  #20: identifier "motors" is undefined
+compiling SerialCom.cpp...
+SerialCom.cpp(34): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(35): error:  #20: identifier "armed" is undefined
+SerialCom.cpp(35): error:  #20: identifier "OFF" is undefined
+SerialCom.cpp(36): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(39): error:  #20: identifier "calibrateESC" is undefined
+SerialCom.cpp(40): error:  #20: identifier "testCommand" is undefined
+SerialCom.cpp(46): error:  #20: identifier "PID" is undefined
+SerialCom.cpp(47): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(47): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(48): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(49): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(50): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(51): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(52): error:  #20: identifier "HEADING" is undefined
+SerialCom.cpp(53): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(53): error:  #20: identifier "TYPEPI" is undefined
+SerialCom.cpp(55): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(55): error:  #20: identifier "NOTYPE" is undefined
+SerialCom.cpp(56): error:  #393: pointer to incomplete class type is not allowed
+SerialCom.cpp(61): error:  #20: identifier "SERIAL_AVAILABLE" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LEDPIN" is undefined
+SerialCom.cpp(62): error:  #20: identifier "LOW" is undefined
+SerialCom.cpp(62): error:  #20: identifier "digitalWrite" is undefined
+SerialCom.cpp(63): error:  #20: identifier "queryType" is undefined
+SerialCom.cpp(63): error:  #20: identifier "SERIAL_READ" is undefined
+SerialCom.cpp(66): error:  #20: identifier "ROLL" is undefined
+SerialCom.cpp(67): error:  #20: identifier "PITCH" is undefined
+SerialCom.cpp(68): error:  #20: identifier "minAcro" is undefined
+SerialCom.cpp(68): error:  #20: identifier "readFloatSerial" is undefined
+SerialCom.cpp(71): error:  #20: identifier "YAW" is undefined
 Target not created

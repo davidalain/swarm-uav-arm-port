@@ -1,1 +1,1 @@
-serialcom.o: SerialCom.c
+serialcom.o: SerialCom.cpp
