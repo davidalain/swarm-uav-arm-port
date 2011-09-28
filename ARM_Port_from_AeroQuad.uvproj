@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>Target 1</TargetName>
+      <TargetName>CortexM3_LPC1768</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
@@ -346,7 +346,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\libraries\EEPROM</IncludePath>
+              <IncludePath>.\libraries\EEPROM;.\libraries\Ethernet;.\libraries\Firmata;.\libraries\LiquidCrystal;.\libraries\Matrix;.\libraries\SD;.\libraries\SoftwareSerial;.\libraries\SPI;.\libraries\Sprite;.\libraries\Stepper;.\libraries\Wire</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -485,6 +485,26 @@
               <FileName>Template.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Template.h</FilePath>
+            </File>
+            <File>
+              <FileName>AeroQuad.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\AeroQuad.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>FlightCommand.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\FlightCommand.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>FlightControl.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\FlightControl.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>SerialCom.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\SerialCom.cpp</FilePath>
             </File>
           </Files>
         </Group>
